@@ -1,0 +1,17 @@
+﻿# Envs y secretos
+.env
+.env.*.local
+
+# Backups y dumps
+backups/
+*.sql
+*.sql.gz
+ps_data.tar.gz
+
+# Volúmenes/artefactos temporales
+**/node_modules/
+.DS_Store
+
+# VS Code (excepto tasks.json, que sí queremos versionar)
+.vscode/*
+!.vscode/tasks.json
